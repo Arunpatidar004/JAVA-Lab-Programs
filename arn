@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class MyData<E>
+{
+    E i;
+    public void set(E i1)
+    {
+        i=i1;
+    }
+    public E get()
+    {
+        return i;
+    }
+    public class Example
+    {
+        public static void main (String[]args)
+        {
+            MyData <Integer> m=new MyData <Integer>();
+            MyData <String> m1=new MyData<String>();
+            m1.set("Rohit");
+            m1.get();
+        }
+    }
+}
